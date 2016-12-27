@@ -61,6 +61,9 @@
 (global-set-key [\M-\S-up] 'move-text-up)
 (global-set-key [\M-\S-down] 'move-text-down)
 
+;; key binding for duplicating line
+(global-set-key "\C-c\C-d" "\C-a\C- \C-n\M-w\C-y")
+
 ;; function-args
 ;; (require 'function-args)
 ;; (fa-config-default)
